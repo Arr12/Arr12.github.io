@@ -1,0 +1,279 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.body {
+  background-image: url("../images/background.webp");
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+.navbar {
+  background-color: #fff;
+  position: fixed;
+  width: 90%;
+  padding-left: 0;
+  z-index: 9999;
+}
+.banner {
+  width: 100%;
+  height: 780px;
+}
+.photo-profile {
+  width: 350px;
+  position: absolute;
+  bottom: -400px;
+  right: 10px;
+}
+.photo-profile-2 {
+  width: 360px;
+  position: absolute;
+  bottom: 0;
+  left: 80px;
+}
+.logo {
+  width: 250px;
+}
+.logo-whatsapp {
+  position: fixed;
+  z-index: 9999;
+  bottom: 20px;
+  right: 20px;
+}
+.logo-whatsapp i {
+  background: linear-gradient(
+    to right,
+    #1345e6 0%,
+    #ed239f 30%,
+    #ed239f 70%,
+    #1345e6 100%
+  );
+  color: #fff;
+  box-shadow: 1px 1px 7px -1px #00000082;
+}
+.box-shadow {
+  box-shadow: 1px 1px 7px -1px #00000082;
+}
+.primary-btn {
+  background: linear-gradient(to right, #1345e6 0%, #ed239f 100%, #1345e6 100%);
+  color: #fff;
+}
+.highlight-title span {
+  position: relative;
+  top: -2px;
+  display: inline-block;
+  margin-left: 10px;
+  width: 50px;
+  height: 4px;
+  background: linear-gradient(to right, #1345e6 0%, #ed239f 100%, #1345e6 100%);
+  filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -webkit-filter: blur(1px);
+  border-radius: 5px;
+}
+.box-services {
+  width: 80px;
+  height: 80px;
+}
+.box-hover:hover {
+  animation: fadeIn 1s;
+  cursor: pointer;
+  color: #fff;
+  background-color: #6c87dee0 !important;
+}
+.filter-content {
+  display: none;
+}
+.filter-content.active {
+  display: block;
+  animation: fadeIn 1s;
+}
+.btn-filter-container {
+  justify-content: space-between;
+}
+.btn-filter {
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  position: relative;
+  margin: 10px 0;
+}
+.btn-filter:after {
+  border-color: transparent;
+  border-style: solid;
+  border-width: 0;
+  content: "";
+  height: 24px;
+  position: absolute;
+  width: 24px;
+}
+.btn-filter:after {
+  border-bottom-width: 2px;
+  border-color: #6c87dee0;
+  bottom: -5px;
+  right: 0px;
+}
+.btn-filter:hover:after {
+  animation: line 0.5s forwards;
+}
+.btn-filter:focus {
+  outline: none;
+}
+.btn-filter.active {
+  background-color: #6c87dee0 !important;
+  color: #fff;
+}
+.btn-filter.active:after {
+  width: 100%;
+}
+.portfolio-object {
+  position: relative;
+}
+.portfolio-object .overlay,
+.portfolio-object .short-info {
+  display: none;
+}
+.portfolio-object:hover .overlay {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -10px;
+  left: 10px;
+  background-color: #6c87dee0 !important;
+  animation: boxFadeIn 0.5s;
+}
+.portfolio-object:hover .short-info {
+  display: block;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+  animation: fadeIn 1s;
+}
+footer {
+  background-color: #021017;
+  height: 400px;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+}
+
+@keyframes menuHide {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@keyframes menuShow {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: -100px;
+  }
+}
+@keyframes boxFadeIn {
+  0% {
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+  }
+  100% {
+    bottom: -10px;
+    left: 10px;
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes line {
+  0% {
+    width: 24px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/* 
+/ DARKEN
+---------*/
+.text-grey {
+  color: #797979;
+}
+.text-white-grey {
+  color: #b3b3b3;
+}
+
+/* 
+/ FONTS
+---------*/
+.f-14 {
+  font-size: 14px;
+}
+.f-18 {
+  font-size: 18px;
+}
+.f-24 {
+  font-size: 24px;
+}
+.f-36 {
+  font-size: 36px;
+}
+.f-48 {
+  font-size: 48px;
+}
+.f-64 {
+  font-size: 64px;
+}
+.f-sm-63 {
+  font-size: 60px !important;
+}
+
+/* 
+/ MARGINS
+*/
+.mt-5 {
+  margin-top: 2rem !important;
+}
+.mt-6 {
+  margin-top: 3rem !important;
+}
+.mt-10 {
+  margin-top: 10rem !important;
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    margin-left: 0px;
+    width: 100%;
+    left: 0;
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .btn-filter-container {
+    justify-content: unset;
+  }
+  .body {
+    background-image: none;
+  }
+}
