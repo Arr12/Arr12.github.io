@@ -1,0 +1,54 @@
+.owl-nav .owl-prev,
+.owl-nav .owl-next{
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+.owl-nav .owl-prev{
+    left: -40px;
+}
+.owl-nav .owl-next{
+    right: -40px;
+}
+/* .owl-nav .owl-prev{
+    animation: leftRight 1s infinite;
+} */
+/* .owl-nav .owl-next{
+    animation: rightLeft 1s infinite;
+} */
+.owl-nav .owl-prev:hover,
+.owl-nav .owl-next:hover{
+    background-color: transparent !important;
+}
+.owl-nav .owl-prev:focus,
+.owl-nav .owl-next:focus{
+    outline: none;
+    animation: none;
+}
+.owl-nav span{
+    font-size: 60px;
+    color: #2196f3;
+}
+
+@keyframes leftRight {
+    0%{
+        left: -40px;
+    }
+    50%{
+        left: -20px;
+    }
+    100%{
+        left: -40px;
+    }
+}
+@keyframes rightLeft {
+    0%{
+        right: -40px;
+    }
+    50%{
+        right: -60px;
+    }
+    100%{
+        right: -40px;
+    }
+}

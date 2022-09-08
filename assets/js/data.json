@@ -1,0 +1,307 @@
+{
+  "price-web-programming": [
+    {
+      "title": "Web Company Profile Santai",
+      "sub_title": "Web Santai cocok untuk companyy profile, organisasi, dan mengikuti dokumen yang diberikan oleh client, dan akan di billing sesuai dengan jumlah Halaman Website.",
+      "first_price": "1309998",
+      "disc": "65",
+      "tags": "non",
+      "benefits": [
+        "Harga Perhalaman",
+        "Hosting 1 Tahun",
+        "Domain 1 Tahun",
+        "Mobile Friendly",
+        "Revisi 3x",
+        "Free SEO"
+      ]
+    },
+    {
+      "title": "Web Company Profile Profesional",
+      "sub_title": "Web Profesional mengikuti dokumen yang diberikan oleh client, dan akan di billing sesuai dengan jumlah section setiap ux.",
+      "first_price": "2409997",
+      "disc": "65",
+      "tags": "hot",
+      "benefits": [
+        "Harga Persection",
+        "Design Figma",
+        "Hosting 1 Tahun",
+        "Domain 1 Tahun",
+        "Mobile Friendly",
+        "Revisi 5x",
+        "Free SEO"
+      ]
+    },
+    {
+      "title": "Web Apps Santai",
+      "sub_title": "Web Apps Santai mengikuti proses bisnis yang diberikan oleh client, menggunakan metode pendekatan SDLC, dan akan di billing sesuai kebutuhan perhalaman dan setiap event yang tersedia pada website.",
+      "first_price": "1659998",
+      "disc": "65",
+      "tags": "non",
+      "benefits": [
+        "Harga Perhalaman",
+        "Harga Per-Event",
+        "Free Event Awal 3x",
+        "Hosting 1 Tahun",
+        "Domain 1 Tahun",
+        "Mobile Friendly",
+        "Revisi 3x"
+      ]
+    },
+    {
+      "title": "Web Apps Profesional",
+      "sub_title": "Web Apps Profesional mengikuti proses bisnis yang diberikan oleh client, menggunakan metode pendekatan SDLC, dan akan di billing sesuai kebutuhan persection dan setiap event yang tersedia pada website.",
+      "first_price": "2759997",
+      "disc": "65",
+      "tags": "hot",
+      "benefits": [
+        "Harga Persection",
+        "Harga Per-Event",
+        "Design Figma",
+        "Free Event Awal 5x",
+        "Hosting 1 Tahun",
+        "Domain 1 Tahun",
+        "Mobile Friendly",
+        "Revisi 5x"
+      ]
+    },
+    {
+      "title": "Web E-Commerce Santai",
+      "sub_title": "Web E-Commerce Santai mengikuti proses bisnis yang diberikan oleh client, menggunakan metode pendekatan SDLC, dan akan di billing sesuai kebutuhan perhalaman dan setiap event yang tersedia pada website.",
+      "first_price": "1659998",
+      "disc": "65",
+      "tags": "hot",
+      "benefits": [
+        "Harga Perhalaman",
+        "Harga Per-Event",
+        "Free Event Awal 3x",
+        "Hosting 1 Tahun",
+        "Domain 1 Tahun",
+        "Mobile Friendly",
+        "Free SEO",
+        "Revisi 5x"
+      ]
+    },
+    {
+      "title": "Web E-Commerce Profesional",
+      "sub_title": "Web E-Commerce Profesional mengikuti proses bisnis yang diberikan oleh client, menggunakan metode pendekatan SDLC, dan akan di billing sesuai kebutuhan persection dan setiap event yang tersedia pada website.",
+      "first_price": "2759997",
+      "disc": "65",
+      "tags": "non",
+      "benefits": [
+        "Harga Persection",
+        "Harga Per-Event",
+        "Free Event Awal 5x",
+        "Hosting 1 Tahun",
+        "Domain 1 Tahun",
+        "Mobile Friendly",
+        "Free SEO",
+        "Revisi 5x"
+      ]
+    }
+  ],
+  "price-ui-ux": [
+    {
+      "title": "Santai",
+      "sub_title": "UIUX Santai untuk membuat mockup dan blueprint website atau mobile apps, mengikuti dokumen yang diberikan oleh client.",
+      "first_price": "1599994",
+      "disc": "65",
+      "tags": "non",
+      "benefits": [
+        "Harga Setiap Halaman Website",
+        "Illustrasi",
+        "Free Mockup",
+        "Revisi 3x"
+      ]
+    },
+    {
+      "title": "Profesional",
+      "sub_title": "UIUX Santai untuk membuat mockup dan blueprint website atau mobile apps, mengikuti dokumen yang diberikan oleh client.",
+      "first_price": "2449989",
+      "disc": "65",
+      "tags": "hot",
+      "benefits": [
+        "Harga Setiap Halaman Website",
+        "Harga Setiap Halaman Mobile",
+        "Illustrasi",
+        "Free Mockup",
+        "Revisi 5x"
+      ]
+    }
+  ],
+  "price-wordpress": [
+    {
+      "title": "Santai",
+      "sub_title": "Wordpress Santai cocok untuk companyy profile, organisasi, dan mengikuti dokumen yang diberikan oleh client, dan akan di billing sesuai dengan jumlah Halaman Website.",
+      "first_price": "2449989",
+      "disc": "65",
+      "tags": "hot",
+      "benefits": [
+        "Harga Setiap Halaman",
+        "Hosting 1 Tahun",
+        "Domain 1 Tahun",
+        "Mobile Friendly",
+        "Free Section Awal 3x",
+        "Revisi 3x",
+        "Free SEO"
+      ]
+    },
+    {
+      "title": "Profesional",
+      "sub_title": "Wordpress E-Commerce Profesional mengikuti proses bisnis yang diberikan oleh client, menggunakan metode pendekatan SDLC, dan akan di billing sesuai kebutuhan persection dan setiap event yang tersedia pada website.",
+      "first_price": "2449989",
+      "disc": "65",
+      "tags": "non",
+      "benefits": [
+        "Harga Setiap Section",
+        "Hosting 1 Tahun",
+        "Domain 1 Tahun",
+        "Free Section Awal 5x",
+        "Mobile Friendly",
+        "Revisi 5x",
+        "Design Figma",
+        "Free SEO"
+      ]
+    }
+  ],
+  "price-undangan": [
+    {
+      "title": "Santai",
+      "sub_title": "Undangan Online merupakan jalan digital modern yang memudahkan kita untuk berkomunikasi atau memberikan informasi kepada kerabat kita yang jauh dalam konsep modern dan lebih beretika.",
+      "first_price": "299999",
+      "disc": "65",
+      "tags": "hot",
+      "benefits": [
+        "Harga Setiap Halaman",
+        "Hosting 1 Tahun",
+        "Domain 1 Tahun",
+        "Free Section Awal 3x",
+        "Mobile Friendly",
+        "Revisi 3x",
+        "Free SEO"
+      ]
+    },
+    {
+      "title": "Profesional",
+      "sub_title": "Undangan Online merupakan jalan digital modern yang memudahkan kita untuk berkomunikasi atau memberikan informasi kepada kerabat kita yang jauh dalam konsep modern dan lebih beretika.",
+      "first_price": "309998",
+      "disc": "65",
+      "tags": "non",
+      "benefits": [
+        "Harga Setiap Section",
+        "Hosting 1 Tahun",
+        "Domain 1 Tahun",
+        "Free Section Awal 5x",
+        "Mobile Friendly",
+        "Revisi 5x",
+        "Design Figma"
+      ]
+    }
+  ],
+  "price-design-graphic": [
+    {
+      "title": "Santai",
+      "sub_title": "Design yang modern meliputi pembutan logo, banner, brosur, dan katalog untuk kepentingan perkembangan bisnis anda.",
+      "first_price": "349998",
+      "disc": "65",
+      "tags": "hot",
+      "benefits": [
+        "Harga Setiap Design",
+        "Free Mockup",
+        "Revisi 5x",
+        "Filosofis"
+      ]
+    }
+  ],
+  "price-photo-editing": [
+    {
+      "title": "Santai",
+      "sub_title": "Paket Jasa Edit Foto meliputi pass photo, vector art, manipulation art, tanpa pigora.",
+      "first_price": "49999",
+      "disc": "65",
+      "tags": "non",
+      "benefits": [
+        "Jasa Edit",
+        "Kertas Foto 10RS",
+        "Revisi 3x"
+      ]
+    },
+    {
+      "title": "Profesional",
+      "sub_title": "Paket Jasa Edit Foto meliputi pass photo, vector art, manipulation art, plus paket pigora.",
+      "first_price": "99999",
+      "disc": "65",
+      "tags": "hot",
+      "benefits": [
+        "Jasa Edit",
+        "Kertas Foto 10RS",
+        "Revisi 5x",
+        "Pigora"
+      ]
+    }
+  ],
+  "price-photo-wedding": [
+    {
+      "title": "Prewedding",
+      "sub_title": "Paket kebutuhan dokumentasi pernikahan meliputi, Prewedding menyesuaikan permintaan customer.",
+      "first_price": "499999",
+      "disc": "65",
+      "tags": "hot",
+      "benefits": [
+        "Jasa Prewedding"
+      ]
+    },
+    {
+      "title": "Santai",
+      "sub_title": "Paket kebutuhan dokumentasi pernikahan meliputi, Prewedding, Wedding, Unlimited Shoot plus Cetak 16RS, menyesuaikan permintaan customer.",
+      "first_price": "1495000",
+      "disc": "65",
+      "benefits": [
+        "Jasa Prewedding",
+        "Jasa Foto Wedding",
+        "Cetak 16RS",
+        "Pigora 16RS",
+        "Jasa Edit Foto",
+        "Google Drive Upload"
+      ]
+    },
+    {
+      "title": "Medium",
+      "sub_title": "Paket kebutuhan dokumentasi pernikahan meliputi, Prewedding, Wedding, Unlimited Shoot plus Cetak ukuran lengkap, menyesuaikan permintaan customer.",
+      "first_price": "2590000",
+      "disc": "65",
+      "tags": "hot",
+      "benefits": [
+        "Jasa Prewedding",
+        "Jasa Foto Wedding",
+        "Cetak 4R",
+        "Cetak 10RS",
+        "Cetak 12RS",
+        "Cetak 16RS",
+        "Pigora 16RS",
+        "Jasa Edit Foto",
+        "Album Magnetik Exclusive",
+        "Files by Flashdisk"
+      ]
+    },
+    {
+      "title": "Profesional",
+      "sub_title": "Paket kebutuhan dokumentasi pernikahan melliputi, Prewedding, Wedding, Unlimited Shoot plus Cetak ukuran lengkap, menyesuaikan permintaan customer.",
+      "first_price": "3547500",
+      "disc": "65",
+      "tags": "non",
+      "benefits": [
+        "Jasa Prewedding",
+        "Jasa Foto Wedding",
+        "Cetak 4R",
+        "Cetak 10RS",
+        "Cetak 12RS",
+        "Cetak 16RS",
+        "Pigora 16RS",
+        "Jasa Edit Foto",
+        "Album Magnetik Exclusive",
+        "Files by Flashdisk",
+        "Paket Video"
+      ]
+    }
+  ]
+}

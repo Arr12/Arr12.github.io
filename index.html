@@ -11,7 +11,6 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets/css/style.css" />
     <link
       rel="shortcut icon"
       href="assets/images/favicon.ico"
@@ -24,6 +23,16 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="assets/plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/carousel.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
@@ -42,8 +51,8 @@
         </i>
       </a>
     </div>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light" id="menu">
+    <nav class="navbar navbar-expand-lg navbar-light" id="menu">
+      <div class="container">
         <a class="navbar-brand py-4" href="#">
           <img
             src="assets/images/logo.png"
@@ -78,8 +87,9 @@
             </li>
           </ul>
         </div>
-      </nav>
-
+      </div>
+    </nav>
+    <div class="container">
       <div
         class="banner row align-items-center justify-content-between"
         id="home"
@@ -105,6 +115,11 @@
               <i class="f-24 text-grey pr-4">
                 <ion-icon name="logo-facebook"></ion-icon>
               </i>
+            </a>
+          </div>
+          <div class="scrollNav">
+            <a class="btn primary-btn mt-4" href="#price-list">
+              <span>Get Started</span>
             </a>
           </div>
         </div>
@@ -138,13 +153,29 @@
             ></small>
             <h2 class="font-weight-bold f-36">A WEB DESIGNER & DEVELOPER</h2>
             <p>
-              by trying and working hard you will easily get what you want, in
-              the visual and intellectual world, and don't forget to bring good
-              morals to life together
+              Hai, Saya Aryo seorang Web Designer & Web Developer, yang telah
+              berpengalaman lebih dari 4 tahun. Bahasa Basic yang biasa Saya
+              gunakan adalah PHP Laravel, Ajax & Jquery, ReactJS & Axios sebagai
+              metode penampilan informasi tertentu.
             </p>
+            <blockquote
+              style="
+                padding: 20px 30px;
+                background: #b14abe;
+                color: #fff;
+                position: relative;
+              "
+            >
+              <span class="f-36" style="position: absolute; left: 10px; top: 0"
+                >"</span
+              >
+              By trying and working hard you will easily get what you want, in
+              the visual and intellectual world, and don't forget to bring good
+              morals to life together.
+            </blockquote>
             <a
               class="btn primary-btn"
-              href="https://drive.google.com/file/d/1FOflTIxCWFIcWCe3OFB_SB6P1hfoXLfB/view?usp=sharing"
+              href="https://drive.google.com/file/d/1eJrgvq2SlZlDoS40By8EpfZv-HywT9WN/view?usp=sharing"
               target="_blank"
             >
               <span>DOWNLOAD CV</span>
@@ -296,31 +327,52 @@
           </div>
           <div class="d-flex flex-row flex-wrap btn-filter-container">
             <button
-              class="btn-filter ml-2 mr-2 box-hover active"
+              class="btn-filter ml-2 mr-2 box-hover active portfolio-filter"
               data-id="web-programming"
             >
               Web Programming
             </button>
-            <button class="btn-filter ml-2 mr-2 box-hover" data-id="ui-ux">
+            <button
+              class="btn-filter ml-2 mr-2 box-hover portfolio-filter"
+              data-id="ui-ux"
+            >
               UI/UX Design
             </button>
-            <button class="btn-filter ml-2 box-hover" data-id="wordpress">
+            <button
+              class="btn-filter ml-2 box-hover portfolio-filter"
+              data-id="wordpress"
+            >
               Wordpress Developer
             </button>
-            <button class="btn-filter ml-2 box-hover" data-id="undangan">
+            <button
+              class="btn-filter ml-2 box-hover portfolio-filter"
+              data-id="undangan"
+            >
               Undangan Online
             </button>
-            <button class="btn-filter ml-2 box-hover" data-id="design-graphic">
+            <button
+              class="btn-filter ml-2 box-hover portfolio-filter"
+              data-id="design-graphic"
+            >
               Design Graphic
             </button>
-            <button class="btn-filter ml-2 box-hover" data-id="photo-editing">
+            <button
+              class="btn-filter ml-2 box-hover portfolio-filter"
+              data-id="photo-editing"
+            >
               Photo Editing
             </button>
-            <button class="btn-filter ml-2 box-hover" data-id="photo-wedding">
+            <button
+              class="btn-filter ml-2 box-hover portfolio-filter"
+              data-id="photo-wedding"
+            >
               Photo Wedding Orginizer
             </button>
           </div>
-          <div class="filter-content active" id="web-programming">
+          <div
+            class="filter-content portfolio-filter-content active"
+            id="web-programming"
+          >
             <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="my-4 rounded portfolio-object">
@@ -400,7 +452,7 @@
               </div>
             </div>
           </div>
-          <div class="filter-content" id="ui-ux">
+          <div class="filter-content portfolio-filter-content" id="ui-ux">
             <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="my-4 rounded portfolio-object">
@@ -436,7 +488,7 @@
               </div>
             </div>
           </div>
-          <div class="filter-content" id="wordpress">
+          <div class="filter-content portfolio-filter-content" id="wordpress">
             <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="my-4 rounded portfolio-object">
@@ -468,7 +520,7 @@
               </div>
             </div>
           </div>
-          <div class="filter-content" id="undangan">
+          <div class="filter-content portfolio-filter-content" id="undangan">
             <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="my-4 rounded portfolio-object">
@@ -512,7 +564,10 @@
               </div>
             </div>
           </div>
-          <div class="filter-content" id="design-graphic">
+          <div
+            class="filter-content portfolio-filter-content"
+            id="design-graphic"
+          >
             <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="my-4 rounded portfolio-object">
@@ -682,7 +737,10 @@
               </div>
             </div>
           </div>
-          <div class="filter-content" id="photo-editing">
+          <div
+            class="filter-content portfolio-filter-content"
+            id="photo-editing"
+          >
             <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="my-4 rounded portfolio-object">
@@ -701,11 +759,71 @@
               <div class="col-sm-12 col-md-6 col-lg-6"></div>
             </div>
           </div>
-          <div class="filter-content" id="photo-wedding">
+          <div
+            class="filter-content portfolio-filter-content"
+            id="photo-wedding"
+          >
             <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-6"></div>
               <div class="col-sm-12 col-md-6 col-lg-6"></div>
             </div>
+          </div>
+
+          <div class="price-list" id="price-list">
+            <div class="d-flex flex-column w-50 mb-4 mt-10">
+              <small
+                class="text-uppercase text-grey font-weight-bold mb-3 highlight-title"
+                >Price List <span></span
+              ></small>
+              <h2 class="font-weight-bold f-36">
+                Price List Project Yang Bisa Kita Berikan
+              </h2>
+            </div>
+            <div class="d-flex flex-row flex-wrap btn-filter-container">
+              <button
+                class="btn-filter ml-2 mr-2 box-hover active price-filter"
+                data-id="price-web-programming"
+              >
+                Web Programming
+              </button>
+              <button
+                class="btn-filter ml-2 mr-2 box-hover price-filter"
+                data-id="price-ui-ux"
+              >
+                UI/UX Design
+              </button>
+              <button
+                class="btn-filter ml-2 box-hover price-filter"
+                data-id="price-wordpress"
+              >
+                Wordpress Developer
+              </button>
+              <button
+                class="btn-filter ml-2 box-hover price-filter"
+                data-id="price-undangan"
+              >
+                Undangan Online
+              </button>
+              <button
+                class="btn-filter ml-2 box-hover price-filter"
+                data-id="price-design-graphic"
+              >
+                Design Graphic
+              </button>
+              <button
+                class="btn-filter ml-2 box-hover price-filter"
+                data-id="price-photo-editing"
+              >
+                Photo Editing
+              </button>
+              <button
+                class="btn-filter ml-2 box-hover price-filter"
+                data-id="price-photo-wedding"
+              >
+                Photo Wedding Orginizer
+              </button>
+            </div>
+            <div id="content_price"></div>
           </div>
         </div>
       </section>
@@ -778,6 +896,8 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+    <script src="assets/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="assets/js/functions.js"></script>
     <script>
       var prevScrollpos = window.pageYOffset;
       window.onscroll = function () {
@@ -800,12 +920,22 @@
             1000
           );
         });
-        $(document).on("click", ".btn-filter", function () {
-          $(".filter-content").removeClass("active");
-          $(".btn-filter").removeClass("active");
+        $(document).on("click", ".btn-filter.portfolio-filter", function () {
+          $(".filter-content.portfolio-filter-content").removeClass("active");
+          $(".btn-filter.portfolio-filter").removeClass("active");
           $(this).addClass("active");
           var id = $(this).attr("data-id");
           $("#" + id).addClass("active");
+        });
+        priceCarousel("price-web-programming");
+        $(document).on("click", ".btn-filter.price-filter", function () {
+          $(".filter-content.price-filter-content").removeClass("active");
+          $(".btn-filter.price-filter").removeClass("active");
+          $(this).addClass("active");
+          var id = $(this).attr("data-id");
+          $("#" + id).addClass("active");
+
+          priceCarousel(id);
         });
       });
     </script>
