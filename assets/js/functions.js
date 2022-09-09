@@ -90,7 +90,9 @@ function priceCarousel(id) {
           `</h4>
                   </div>
                   <a
+                    href='https://wa.me/+6282234354455?text=Haloo,%20Saya%20Mau%20Bertanya%20Soal%20`+ data[i].title +`?'
                     class='btn btn-primary mt-4 py-2 px-3 rounded-30 text-light'
+                    target='_blank'
                     >Order Now
                   </a>
                   <div class='d-flex flex-column align-items-center'>`;
